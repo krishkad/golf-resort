@@ -54,9 +54,9 @@ const Events = () => {
         </div>
 
         {/* Testimonials */}
-        <div className="bg-luxury-cream rounded-3xl p-12 animate-fade-in">
+        <div className="bg-luxury-cream rounded-3xl py-12 px-6 md:p-12 animate-fade-in">
           <h3 className="text-3xl font-playfair font-bold text-center text-luxury-charcoal mb-12">
-            What Our VIP Clients Say
+            What Our Clients Say
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">

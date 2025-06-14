@@ -54,9 +54,9 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 animate-fade-in-up">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-playfair font-bold mb-6">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-playfair font-bold ">
           Experience
-          <span className="block luxury-text-gradient bg-gradient-to-r from-luxury-amber to-luxury-orange bg-clip-text text-transparent">
+          <span className="block luxury-text-gradient bg-gradient-to-r from-luxury-amber to-luxury-orange bg-clip-text text-transparent pb-6">
             Pure Luxury
           </span>
         </h1>
@@ -64,15 +64,21 @@ const Hero = () => {
           Where championship golf meets unparalleled hospitality. Discover a world of exclusive experiences crafted for the most discerning guests.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
+          {/* <Button 
             onClick={scrollToReservation}
             className="bg-luxury-gradient text-lg px-8 py-4"
           >
             Book Your Exclusive Stay
-          </Button>
+          </Button> */}
+          <button 
+           onClick={scrollToReservation}
+            className="bg-luxury-gradient text-lg px-8 py-4 rounded-lg max-sm:w-full"
+          >
+            Discover More
+          </button>
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-white border border-white/30 hover:border-luxury-amber px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white/10 backdrop-blur-sm"
+            className="text-white border border-white/30 hover:border-luxury-amber px-8 py-4 rounded-lg transition-all duration-300 hover:bg-white/10 backdrop-blur-sm max-sm:w-full"
           >
             Discover More
           </button>
