@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
@@ -174,6 +174,7 @@ const Reservation = () => {
                   Number of Guests
                 </Label>
                 <Select
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   onValueChange={(value: any) =>
                     handleInputChange("guests", value)
                   }
@@ -197,6 +198,7 @@ const Reservation = () => {
                 Accommodation Type
               </Label>
               <Select
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 onValueChange={(value: any) =>
                   handleInputChange("accommodationType", value)
                 }

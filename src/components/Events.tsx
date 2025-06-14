@@ -70,8 +70,8 @@ const Events = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "Elysian Golf Resort delivered an absolutely perfect corporate retreat. The attention 
-                to detail and level of service exceeded even our highest expectations."
+                &quot;Elysian Golf Resort delivered an absolutely perfect corporate retreat. The attention 
+                to detail and level of service exceeded even our highest expectations.&quot;
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
@@ -85,8 +85,8 @@ const Events = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "I've planned weddings at the world&apos;s most exclusive venues, but Elysian Golf Resort 
-                creates magic. Every couple deserves to feel this special on their wedding day."
+                &quot;I&apos;ve planned weddings at the world&apos;s most exclusive venues, but Elysian Golf Resort 
+                creates magic. Every couple deserves to feel this special on their wedding day.&quot;
               </p>
             </div>
           </div>

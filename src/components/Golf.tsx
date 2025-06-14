@@ -63,7 +63,7 @@ const Golf = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-black/60 flex items-center justify-center">
             <div className="text-center text-white">
               <h3 className="text-3xl md:text-4xl font-playfair font-bold mb-4">
-                "The most beautiful golf course I've ever played"
+                &quot;The most beautiful golf course I&apos;ve ever played&quot;
               </h3>
               <p className="text-xl">— Tiger Woods, 14-time Major Champion</p>
             </div>
