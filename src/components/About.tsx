@@ -36,7 +36,7 @@ const About = () => {
           <div className="animate-fade-in">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                src="https://images.unsplash.com/photo-1692621284877-fce21e056f11?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Luxury Resort Interior"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />
