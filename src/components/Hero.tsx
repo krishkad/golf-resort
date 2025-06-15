@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
+import { useEffect, useState } from 'react';
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
