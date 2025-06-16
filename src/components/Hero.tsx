@@ -68,12 +68,12 @@ const Hero = () => {
             className="bg-luxury-gradient text-lg px-8 py-4"
           >
             Book Your Exclusive Stay
-          </Button> */}
+            </Button> */}
           <button 
            onClick={scrollToReservation}
-            className="bg-luxury-gradient text-lg px-8 py-4 rounded-lg max-sm:w-full"
-          >
-            Discover More
+           className="bg-luxury-gradient text-lg px-8 py-4 rounded-lg max-sm:w-full"
+           >
+            Book Your Exclusive Stay
           </button>
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
