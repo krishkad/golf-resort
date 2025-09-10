@@ -14,7 +14,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-3xl font-playfair font-bold luxury-text-gradient mb-4">
-              Elysian Golf Resort
+              Golf Resort & Club
             </h3>
             <p className="text-gray-400 leading-relaxed mb-6">
               Where luxury meets legend. Experience the world&apos;s finest golf resort 
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Elysian Golf Resort. All rights reserved. | Privacy Policy | Terms of Service
+              © 2024 Golf Resort & Club. All rights reserved. | Privacy Policy | Terms of Service
             </p>
             <div className="flex items-center space-x-4 text-sm text-gray-400">
               <span>Forbes 5-Star</span>

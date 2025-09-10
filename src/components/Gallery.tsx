@@ -67,10 +67,10 @@ const Gallery = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
             <div className="absolute bottom-8 left-8 text-white">
-              <h3 className="text-3xl font-playfair font-bold mb-2">
+              <h3 className="text-xl sm:text-3xl font-playfair font-bold mb-2">
                 {images[currentImage].title}
               </h3>
-              <p className="text-lg text-gray-200">
+              <p className="text-base sm:text-lg text-gray-200">
                 {images[currentImage].description}
               </p>
             </div>

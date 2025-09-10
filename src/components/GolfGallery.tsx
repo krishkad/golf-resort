@@ -7,43 +7,43 @@ const GolfGallery = () => {
 
   const golfImages = [
     {
-      src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://images.unsplash.com/photo-1592937238247-cd0090e02f65?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Championship Golf Course",
       description:
         "18-hole Tom Fazio designed masterpiece with panoramic mountain views",
     },
     {
-      src: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://plus.unsplash.com/premium_photo-1742418075341-b1093a163989?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Pristine Fairways",
       description:
         "Meticulously maintained greens and fairways for the perfect game",
     },
     {
-      src: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://plus.unsplash.com/premium_photo-1742439609262-15b8f1e32b73?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Scenic Water Features",
       description:
         "Natural water hazards and bridges enhance the playing experience",
     },
     {
-      src: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://images.unsplash.com/photo-1752661497402-5b3b6743d66a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Mountain Valley Course",
       description:
         "Championship holes nestled in breathtaking natural landscape",
     },
     {
-      src: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://images.unsplash.com/photo-1675469096918-197667dc9bbf?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Forested Fairways",
       description:
         "Tree-lined fairways provide both beauty and strategic challenge",
     },
     {
-      src: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://images.unsplash.com/photo-1699564241478-8bcf8f274c1c?q=80&w=1750&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Practice Facilities",
       description:
         "World-class driving range and practice greens for perfecting your game",
     },
     {
-      src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      src: "https://images.unsplash.com/photo-1729313666803-818fc18d3b55?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Sunrise Golf",
       description:
         "Experience the magic of early morning rounds with stunning sunrise views",
@@ -85,10 +85,10 @@ const GolfGallery = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
             <div className="absolute bottom-8 left-8 text-white">
-              <h3 className="text-3xl font-playfair font-bold mb-2">
+              <h3 className="text-xl sm:text-3xl font-playfair font-bold mb-2">
                 {golfImages[currentImage].title}
               </h3>
-              <p className="text-lg text-gray-200">
+              <p className="text-base sm:text-lg text-gray-200">
                 {golfImages[currentImage].description}
               </p>
             </div>

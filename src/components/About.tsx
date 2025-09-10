@@ -9,7 +9,7 @@ const About = () => {
               <span className="block luxury-text-gradient">Excellence</span>
             </h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              For over three decades, Elysian Golf Resort has stood as the pinnacle of luxury hospitality. 
+              For over three decades, Golf Resort & Club has stood as the pinnacle of luxury hospitality. 
               Nestled within 500 acres of pristine landscape, our resort offers an unmatched experience 
               where world-class golf meets exceptional accommodation.
             </p>

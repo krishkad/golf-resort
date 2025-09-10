@@ -46,7 +46,7 @@ const Events = () => {
           </div>
           <div className="animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+              src="https://images.unsplash.com/photo-1472653431158-6364773b2a56?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Elegant Event Space"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
@@ -70,7 +70,7 @@ const Events = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                &quot;Elysian Golf Resort delivered an absolutely perfect corporate retreat. The attention 
+                &quot;Golf Resort & Club delivered an absolutely perfect corporate retreat. The attention 
                 to detail and level of service exceeded even our highest expectations.&quot;
               </p>
             </div>
@@ -85,7 +85,7 @@ const Events = () => {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                &quot;I&apos;ve planned weddings at the world&apos;s most exclusive venues, but Elysian Golf Resort 
+                &quot;I&apos;ve planned weddings at the world&apos;s most exclusive venues, but Golf Resort & Club 
                 creates magic. Every couple deserves to feel this special on their wedding day.&quot;
               </p>
             </div>

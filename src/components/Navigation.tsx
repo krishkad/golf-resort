@@ -33,7 +33,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <h1 className="text-2xl md:text-3xl font-playfair font-bold luxury-text-gradient">
-              Elysian Golf Resort
+              Golf Resort & Club
             </h1>
           </div>
 
